@@ -1,37 +1,67 @@
-A comprehensive end-to-end testing framework built with Playwright for testing a web-based notes application. This project demonstrates modern web automation practices including user authentication flows, form validation testing, and cross-browser compatibility.
+# 📒 Playwright Notes Testing Framework
 
-# 🚀 Features
-User Authentication Testing: Complete login and registration flow automation
-Form Validation Testing: Comprehensive validation error handling for user inputs
-Cross-Browser Support: Configured for Chrome, Firefox, and Safari testing
-Ad Blocking: Built-in ad blocking to ensure clean test execution
-HTML Test Reports: Detailed test reports with screenshots and traces
-CI/CD Ready: Optimized for continuous integration environments
+A comprehensive **end-to-end testing framework** built with **Playwright** for testing a web-based notes application.  
+This project demonstrates **modern web automation practices** including authentication flows, form validation, and cross-browser compatibility.
 
-# 🧪 Test Coverage
-Login Flow: Valid credentials authentication and error handling
-Registration Flow: New user registration with duplicate email detection
-Form Validation: Required field validation for all user inputs
-Error Handling: Toast notifications and validation message testing
+---
 
-# 🛠️ Tech Stack
-Playwright - Modern web automation framework
-TypeScript - Type-safe test development
-Node.js - Runtime environment
-HTML Reporter - Detailed test reporting
+## 🚀 Features
 
-# 📋 Test Scenarios
-Login Tests
-Successful user login with valid credentials
-Form validation for empty fields
-UI element visibility after authentication
-Registration Tests
-New user registration flow
-Duplicate email address handling
-Form validation for all required fields
+- **User Authentication Testing** → Complete login & registration flow automation  
+- **Form Validation Testing** → Comprehensive validation error handling for user inputs  
+- **Cross-Browser Support** → Configured for Chrome, Firefox, and Safari  
+- **Ad Blocking** → Built-in ad blocking for clean test execution  
+- **HTML Test Reports** → Detailed test reports with screenshots & traces  
+- **CI/CD Ready** → Optimized for continuous integration pipelines  
 
-# 🚀 Getting Started
-# Install dependencies
+---
+
+## 🧪 Test Coverage
+
+- **Login Flow**  
+  - Valid credentials authentication  
+  - Invalid credentials & error handling  
+
+- **Registration Flow**  
+  - New user registration  
+  - Duplicate email detection  
+
+- **Form Validation**  
+  - Required field validation for all user inputs  
+
+- **Error Handling**  
+  - Toast notifications  
+  - Validation message testing  
+
+---
+
+## 🛠️ Tech Stack
+
+- [Playwright](https://playwright.dev/) – Modern web automation framework  
+- [TypeScript](https://www.typescriptlang.org/) – Type-safe test development  
+- [Node.js](https://nodejs.org/) – Runtime environment  
+- **Playwright HTML Reporter** – Detailed test reporting  
+
+---
+
+## 📋 Test Scenarios
+
+### 🔑 Login Tests
+- Successful user login with valid credentials  
+- Form validation for empty fields  
+- UI element visibility after authentication  
+
+### 📝 Registration Tests
+- New user registration flow  
+- Duplicate email address handling  
+- Form validation for required fields  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
+```bash
 npm install
 
 # Run tests
